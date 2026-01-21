@@ -74,7 +74,7 @@ SHORTLINK_API2 = environ.get("SHORTENER_API2", "0ba43bce4319bdae31dcea16542c69f9
 # =========================================================
 FSUB = is_enabled(environ.get("FSUB", "True"), True)
 ENABLE_LIMIT = is_enabled(environ.get("ENABLE_LIMIT", "True"), True)
-MAINTENANCE_MODE = is_enabled(environ.get("MAINTENANCE_MODE", "True"), False)
+MAINTENANCE_MODE = is_enabled(environ.get("MAINTENANCE_MODE", "False"), False)
 
 # Time & Rate Limits
 TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
